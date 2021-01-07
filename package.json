@@ -1,0 +1,17 @@
+{
+  "name": "tunde-work",
+  "version": "1.0.0",
+  "description": "Landing page for Nature",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass --watch --recursive --output css --source-map true --source-map-contents sass"
+  },
+  "author": "Babatunde",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0",
+    "node.js": "0.0.1-security",
+    "save-dev": "0.0.1-security"
+  }
+}
