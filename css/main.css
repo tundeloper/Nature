@@ -267,6 +267,8 @@ body {
   background-position: top;
   background-size: cover;
   transform: skewY(-7deg); }
+  .section-features > * {
+    transform: skewY(7deg); }
 
 /* 
 COLORS:
