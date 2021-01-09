@@ -194,7 +194,8 @@ body {
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem #000; }
   .feature_box__icon {
-    font-size: 6rem; }
+    font-size: 6rem;
+    margin-bottom: .5rem; }
 
 .row {
   max-width: 114rem;
