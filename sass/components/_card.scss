@@ -1,0 +1,9 @@
+.card {
+    background: orangered;
+    height: 50rem;
+    transition: all.2s;
+
+    &:hover {
+        transform: rotateY(180deg);
+    }
+}
