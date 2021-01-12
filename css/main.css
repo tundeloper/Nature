@@ -176,12 +176,12 @@ body {
     width: 100%;
     backface-visibility: hidden; }
     .card__side--front {
-      background-color: #fff; }
+      background-image: #fff; }
     .card__side--back {
       background-color: green;
       transform: rotateY(180deg); }
       .card__side--back-1 {
-        background-color: linear-gradient(to right bottom, #ffb900, #ff7730); }
+        background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
   .card:hover .card__side--front {
     transform: rotateY(180deg); }
   .card:hover .card__side--back {
