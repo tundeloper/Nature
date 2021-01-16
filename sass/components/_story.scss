@@ -6,16 +6,26 @@
     border-radius: 3px;
     padding: 6rem;
     font-size: $default-font-size;
-    position: relative;
+    transform: skewX(-12deg);
+
+    & > * {
+        transform: skewX(12deg);
+    }
 
     &__shape {
         width: 15rem;
         height: 15rem;
-        background-color: orangered;
         float: left;
         -webkit-shape-outside: circle(50% at 50% 50%);
         shape-outside: circle(50% at 50% 50%);
-
+        -webkit-clip-path: circle(50% at 50% 50%);
         clip-path: circle(50% at 50% 50%);
+        transform: translate(-3rem) skewX(12deg);
+        
+    }
+
+    &__img {
+        width: 100rem;
+        height: 100rem;
     }
 }
