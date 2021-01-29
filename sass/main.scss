@@ -12,11 +12,14 @@
 @import "components/card";
 @import "components/compositon";
 @import "components/feature-box";
+@import "components/popup";
 @import "components/form";
 @import "components/story";
 
+@import "layout/foooter";
 @import "layout/grid";
 @import "layout/header";
+@import "layout/navigation.scss";
 
 @import "pages/home";
 
