@@ -124,7 +124,7 @@ body {
   @media (max-width: 56.25em) {
     .heading-secondary {
       font-size: 2.5rem; } }
-  @media (max-width: 3.5em) {
+  @media (max-width: 3.6em) {
     .heading-secondary {
       font-size: 2.5rem; } }
   .heading-secondary:hover {
@@ -699,7 +699,7 @@ body {
     .navigation__button {
       top: 3.5rem;
       right: 3.5rem; } }
-  @media (max-width: 3.5em) {
+  @media (max-width: 3.6em) {
     .navigation__button {
       top: 3.5rem;
       right: 3.5rem; } }
@@ -718,7 +718,7 @@ body {
     .navigation__background {
       top: 3.5rem;
       right: 3.5rem; } }
-  @media (max-width: 3.5em) {
+  @media (max-width: 3.6em) {
     .navigation__background {
       top: 3.5rem;
       right: 3.5rem; } }
