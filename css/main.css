@@ -97,7 +97,7 @@ body {
       animation-delay: 3s;
       animation-iteration-count: 3;
        */ }
-    @media (max-width: 3.6em) {
+    @media (max-width: 56.25em) {
       .heading-primary--main {
         letter-spacing: 1rem;
         font-family: 5rem; } }
@@ -107,7 +107,7 @@ body {
     font-weight: 400;
     letter-spacing: 17.4px;
     animation: moveInRight 1s ease-out; }
-    @media (max-width: 3.6em) {
+    @media (max-width: 56.25em) {
       .heading-primary--sub {
         letter-spacing: .5rem; } }
 
@@ -124,7 +124,7 @@ body {
   @media (max-width: 56.25em) {
     .heading-secondary {
       font-size: 2.5rem; } }
-  @media (max-width: 3.6em) {
+  @media (max-width: 3.5em) {
     .heading-secondary {
       font-size: 2.5rem; } }
   .heading-secondary:hover {
@@ -699,7 +699,7 @@ body {
     .navigation__button {
       top: 3.5rem;
       right: 3.5rem; } }
-  @media (max-width: 3.6em) {
+  @media (max-width: 3.5em) {
     .navigation__button {
       top: 3.5rem;
       right: 3.5rem; } }
@@ -718,7 +718,7 @@ body {
     .navigation__background {
       top: 3.5rem;
       right: 3.5rem; } }
-  @media (max-width: 3.6em) {
+  @media (max-width: 3.5em) {
     .navigation__background {
       top: 3.5rem;
       right: 3.5rem; } }
