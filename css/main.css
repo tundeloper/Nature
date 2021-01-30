@@ -698,7 +698,7 @@ body {
   @media (max-width: 56.25em) {
     .navigation__button {
       top: 3.5rem;
-      right: s3 0.5rem; } }
+      right: 3.5rem; } }
   @media (max-width: 3.5em) {
     .navigation__button {
       top: 3.5rem;
