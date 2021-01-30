@@ -25,7 +25,7 @@ body {
       animation-timing-function: ease-out;
       
       //phone
-      @include respond(tab-port) {
+      @include respond(phone) {
          letter-spacing: 1rem;
          font-family: 5rem;
    }
@@ -44,7 +44,7 @@ body {
       animation: moveInRight 1s ease-out;
 
       //phone
-      @include respond(tab-port) {
+      @include respond(phone) {
          letter-spacing: .5rem;
       }
    }
