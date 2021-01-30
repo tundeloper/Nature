@@ -697,8 +697,12 @@ body {
   cursor: pointer; }
   @media (max-width: 56.25em) {
     .navigation__button {
-      top: 4rem;
-      right: 4rem; } }
+      top: 3.5rem;
+      right: s3 0.5rem; } }
+  @media (max-width: 3.5em) {
+    .navigation__button {
+      top: 3.5rem;
+      right: 3.5rem; } }
 
 .navigation__background {
   height: 6rem;
@@ -712,8 +716,12 @@ body {
   transition: transform 0.8s cubic-bezier(0.68, 0, 0.07, 1); }
   @media (max-width: 56.25em) {
     .navigation__background {
-      top: 4.5rem;
-      right: 4.5rem; } }
+      top: 3.5 0.5rem;
+      right: 3.5 0.5rem; } }
+  @media (max-width: 3.5em) {
+    .navigation__background {
+      top: 3.5rem;
+      right: 3.5rem; } }
 
 .navigation__nav {
   height: 100vh;
