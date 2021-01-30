@@ -628,7 +628,7 @@ body {
         margin-bottom: 6rem; } }
   @media (max-width: 56.25em) {
     .row {
-      max-width: 50rem; } }
+      max-width: 60rem; } }
   .row::after {
     content: "";
     display: table;
