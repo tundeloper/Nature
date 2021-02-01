@@ -126,7 +126,7 @@ body {
       font-size: 2.5rem; } }
   @media (max-width: 3.5em) {
     .heading-secondary {
-      font-size: 2.5rem; } }
+      font-size: 2rem; } }
   .heading-secondary:hover {
     transform: skewY(2deg) skewX(20deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
@@ -371,7 +371,6 @@ body {
   font-size: 1.5rem;
   padding: 2.5rem;
   text-align: center;
-  vertical-align: center;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: transform .3s; }
@@ -582,12 +581,12 @@ body {
 
 .footer {
   background-color: #333;
-  padding: 10rem;
+  padding: 10rem 0;
   font-size: 1.4rem;
   color: #f7f7f7; }
   @media (max-width: 56.25em) {
     .footer {
-      padding: 0; } }
+      padding: 8rem 0; } }
   .footer__logo-box {
     text-align: center;
     margin-bottom: 8rem; }
@@ -598,6 +597,10 @@ body {
     border-top: 1px solid #777;
     padding-top: 2rem;
     display: inline-block; }
+    @media (max-width: 56.25em) {
+      .footer__navigation {
+        width: 100%;
+        text-align: center; } }
   .footer__list {
     list-style: none; }
   .footer__item {
@@ -620,15 +623,16 @@ body {
     padding-top: 2rem;
     width: 80%;
     float: right; }
+    @media (max-width: 56.25em) {
+      .footer__copyright {
+        width: 100%;
+        float: none; } }
 
 .row {
   max-width: 115rem;
   margin: auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
-    @media (max-width: 56.25em) {
-      .row:not(:last-child) {
-        margin-bottom: 6rem; } }
   @media (max-width: 56.25em) {
     .row {
       max-width: 50rem; } }
@@ -644,6 +648,10 @@ body {
         .row [class^="col-"]:not(:last-child) {
           margin-right: 0;
           margin-bottom: 6rem; } }
+    @media (max-width: 56.25em) {
+      .row [class^="col-"] {
+        margin-right: 0;
+        margin-bottom: 6rem; } }
     @media (max-width: 56.25em) {
       .row [class^="col-"] {
         width: 100% !important; } }
@@ -700,12 +708,12 @@ body {
   cursor: pointer; }
   @media (max-width: 56.25em) {
     .navigation__button {
-      top: 3.5rem;
-      right: 3.5rem; } }
+      top: 4rem;
+      right: 4rem; } }
   @media (max-width: 3.5em) {
     .navigation__button {
-      top: 3.5rem;
-      right: 3.5rem; } }
+      top: 3rem;
+      right: 3rem; } }
 
 .navigation__background {
   height: 6rem;
@@ -719,8 +727,8 @@ body {
   transition: transform 0.8s cubic-bezier(0.68, 0, 0.07, 1); }
   @media (max-width: 56.25em) {
     .navigation__background {
-      top: 3.5rem;
-      right: 3.5rem; } }
+      top: 4.5rem;
+      right: 4.5rem; } }
   @media (max-width: 3.5em) {
     .navigation__background {
       top: 3.5rem;
