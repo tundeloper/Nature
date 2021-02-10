@@ -9,14 +9,16 @@
     transform: skewX(-12deg);
 
     @include respond(tab-port) {
-        width: 100%;
+        width: 100% !important;
         padding: 4rem;
         padding-left: 7rem;
+        transform: skewX(0);
+
     }
 
-    @include respond(tab-port) { //pone
-        transform: skewX(0);
-    }
+    // @include respond(tab-port) { //pone
+    //     transform: skewX(0);
+    // }
 
     &__shape {
         width: 15rem;
@@ -61,6 +63,7 @@
         text-transform: uppercase;
         background-image: linear-gradient(to right, #7ed56f, #28b485);
         -webkit-background-clip: text;
+        background-clip: text;
         color: transparent; 
         text-align: center;
         opacity: 0;
