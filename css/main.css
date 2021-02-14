@@ -437,7 +437,10 @@ body {
   z-index: 9999;
   opacity: 0;
   visibility: hidden;
-  transition: all .3s; }
+  transition: all .3s;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.3); }
   .popup__content {
     position: absolute;
     top: 50%;
@@ -701,8 +704,7 @@ body {
     margin-bottom: 8rem; }
   @media (max-width: 56.25em) {
     .row {
-      max-width: 50rem;
-      padding: 0 3rem; } }
+      max-width: 50rem; } }
   .row::after {
     content: "";
     display: table;
@@ -737,11 +739,17 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../images/Capture.PNG);
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../images/hero-small.PNG);
   background-size: cover;
   background-position: top;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
+  @media (min-resolution: 192dpi) and (max-width: 3.7em), (min-width: 125em) {
+    .header {
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.8), rgba(255, 119, 48, 0.8)), url(../images/hero.PNG); } }
+  @media (max-width: 2000px) {
+    .header {
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.8), rgba(255, 119, 48, 0.8)), url(../images/hero.PNG); } }
   @media (max-width: 56.25em) {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
@@ -907,7 +915,7 @@ body {
     transform: skewY(7deg); }
   @media (max-width: 56.25em) {
     .section-features {
-      padding: 10rem; } }
+      padding: 0rem; } }
 
 .section-tours {
   background-color: #f7f7f7;
@@ -922,7 +930,7 @@ body {
   position: relative; }
   @media (max-width: 56.25em) {
     .section-stories {
-      padding: 15rem; } }
+      padding: 0; } }
 
 .section-book {
   padding: 15rem 0;
