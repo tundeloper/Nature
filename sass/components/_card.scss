@@ -2,7 +2,7 @@
     perspective: 150rem;
     -moz-perspective: #fff;
     position: relative;
-height: 52rem;
+    height: 52rem;
 
     &__side {
         height: 52rem;
@@ -11,6 +11,7 @@ height: 52rem;
         top: 0;
         left: 0;
         width: 100%;
+        -wekit-backface-visibility: hidden;
         backface-visibility: hidden;
         border-radius: 3px;
         overflow: hidden;
@@ -161,7 +162,9 @@ height: 52rem;
         font-family: inherit;
     }
 
-    @include respond(tab-port) {
+    // @include respond(tab-port) {
+    @media only screen and (max-width: 56),
+            only screen and (hover: none) {
     height: auto;
 
     &__side {
